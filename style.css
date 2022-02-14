@@ -1,6 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .header{
@@ -17,13 +19,6 @@ body{
 .subtext{
     font-size: 18px;
     color: #e5e7eb;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-header{
-    font-size: 24px;
-    font-weight: bold;
-    color: #f9faf8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -88,7 +83,7 @@ button{
 }
 
 .container{
-    width: 150px;
+    width: 200px;
     height: 250px;
 }
 
@@ -97,6 +92,10 @@ button{
     justify-content: center;
     gap: 45px;
     padding-bottom: 32px;
+}
+
+.informationsection{
+    background-color: #FFF5EE;
 }
 
 .quotesection{
