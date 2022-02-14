@@ -1,0 +1,153 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #1F2937;
+}
+
+.main_text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    width:500px;
+    height: 250px;
+}
+
+button{
+    background-color: #3882f6;
+    color: whitesmoke;
+    width: 120px;
+    border-radius: 16px;
+    border: none;
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 8px 16px;
+    margin: 16px 0;
+}
+
+.line1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 80px;
+}
+
+.hero{
+    display: flex;
+    flex-flow: column wrap;
+    width: 500px;
+    justify-content: center;
+}
+
+.line2{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.infotitle{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin: 32px 0;
+}
+
+.container{
+    width: 150px;
+    height: 250px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding-bottom: 32px;
+}
+
+.quotesection{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 36px;
+}
+
+.quotetext{
+    font-size: 36px;
+    font-weight: lighter;
+    color:#1F2937;
+    width: 600px;
+}
+
+pre{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.calltoaction{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin: 50px auto;
+    width: 800px;
+}
+
+.actionbutton{
+    border: 2px solid whitesmoke;
+}
+
+.actiontext{
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.actionsubtext{
+    color: whitesmoke;
+}
+
+footer{
+    background-color:#1F2937;
+    color: whitesmoke;
+    text-align: center;
+    padding: 32px;
+    margin: 0;
+}
