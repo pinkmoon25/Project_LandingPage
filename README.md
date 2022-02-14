@@ -1,5 +1,5 @@
 # Project_LandingPage
-Thanks for the Photos from pexels Photo by Nao Triponez: https://www.pexels.com/photo/white-ceramic-coffee-cup-on-white-saucer-129207/
+Completed the landing page project, Thanks Odin! and Thanks for the Photos from pexels Photo by Nao Triponez: https://www.pexels.com/photo/white-ceramic-coffee-cup-on-white-saucer-129207/
 
 Photo by Chevanon Photography: https://www.pexels.com/photo/close-up-of-coffee-cup-on-table-312418/
 
