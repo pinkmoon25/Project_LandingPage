@@ -1,12 +1,20 @@
+
 body{
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
+    background-color: #ffede1;
+    background-image: url(./images/pexels-pixabay-266688.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header{
     background-color: #1F2937;
+    background-image: url(./images/pexels-pixabay-266688.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main_text{
@@ -78,7 +86,7 @@ button{
 .infotitle{
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
+    color: #1b110a;
     text-align: center;
     margin: 32px 0;
 }
@@ -95,28 +103,35 @@ button{
     padding-bottom: 32px;
 }
 
-.informationsection{
-    background-color: #FFF5EE;
+.text{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .quotesection{
-    background-color: #e5e7eb;
+    background-color: #1F2937;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     padding: 36px;
+    background-image: url(./images/pexels-pixabay-266688.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .quotetext{
     font-size: 36px;
     font-weight: lighter;
-    color:#1F2937;
+    color:#e5e7eb;
     width: 600px;
 }
 
 pre{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    font-size: 20px;
 }
 
 .calltoaction{
