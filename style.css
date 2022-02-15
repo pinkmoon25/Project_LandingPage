@@ -165,4 +165,7 @@ footer{
     text-align: center;
     padding: 32px;
     margin: 0;
+    background-image: url(./images/pexels-pixabay-266688.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
