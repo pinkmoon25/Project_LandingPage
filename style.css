@@ -5,14 +5,15 @@ body{
     margin: 0;
     padding: 0;
     background-color: #ffede1;
-    background-image: url(./images/pexels-pixabay-266688.jpg);
+    background-image: url(./images/pexels-pixabay.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .header{
     background-color: #1F2937;
-    background-image: url(./images/pexels-pixabay-266688.jpg);
+    background-image: url(./images/pexels-pixabay.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -28,6 +29,8 @@ body{
     font-size: 18px;
     color: #e5e7eb;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: 500;
 }
 
 ul{
@@ -40,34 +43,55 @@ ul{
 
 a{
     text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb;
+    font-weight: bold;
+    font-style: italic;
+    color: wheat;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img{
-    width:500px;
-    height: 250px;
+a:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+.headerimage{
+    max-width: 100%;
+    height: auto;
     border-radius: 5%;
+    box-shadow: 1px 1px 10px 5px wheat;
+}
+
+.logoimage{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 5px navajowhite;
 }
 
 button{
     background-color: #3882f6;
     color: whitesmoke;
-    width: 120px;
+    width: fit-content;
     border-radius: 16px;
     border: none;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: bold;
     padding: 8px 16px;
     margin: 16px 0;
+    transition: 0.3s ease;
 }
 
-.line1{
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 80px;
+    padding: 16px 60px;
 }
 
 .hero{
@@ -77,10 +101,11 @@ button{
     justify-content: center;
 }
 
-.line2{
+.headercontent{
     display: flex;
     justify-content: space-between;
     padding: 80px;
+    flex-wrap: wrap;
 }
 
 .infotitle{
@@ -89,25 +114,43 @@ button{
     color: #1b110a;
     text-align: center;
     margin: 32px 0;
+    text-shadow: 3px 2px 4px whitesmoke;
 }
 
 .container{
-    width: 200px;
-    height: 250px;
+    max-width: 100%;
+    height: auto;
+}
+
+.infoimage{
+    width: 180px; 
+    height: 200px; 
+    border-radius: 18px;
+    box-shadow: 1px 1px 10px 5px wheat;
+}
+
+.informationsection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .information{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 45px;
     padding-bottom: 32px;
 }
 
-.text{
+.imagetext{
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-shadow: 2px 2px 4px whitesmoke;
 }
 
 .quotesection{
@@ -116,16 +159,17 @@ button{
     flex-flow: column wrap;
     align-items: center;
     padding: 36px;
-    background-image: url(./images/pexels-pixabay-266688.jpg);
+    background-image: url(./images/pexels-pixabay.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .quotetext{
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: bold;
     color:#e5e7eb;
     width: 600px;
+    text-shadow: 2px 2px 4px gray;
 }
 
 pre{
@@ -140,13 +184,13 @@ pre{
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
-    padding: 20px 0;
+    padding: 20px 10px;
     margin: 50px auto;
     width: 800px;
 }
 
 .actionbutton{
-    border: 2px solid whitesmoke;
+    border: 4px solid rgba(240, 232, 232, 0.705);
 }
 
 .actiontext{
@@ -160,12 +204,84 @@ pre{
 }
 
 footer{
+    font-weight: 600;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
     background-color:#1F2937;
-    color: whitesmoke;
+    color: silver;
     text-align: center;
     padding: 32px;
     margin: 0;
-    background-image: url(./images/pexels-pixabay-266688.jpg);
+    background-image: url(./images/pexels-pixabay.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+@media (max-width: 600px){
+    body{
+        display: flex;
+        width: auto;
+        background-image: url(./images/pexels-pixabay.jpg);
+        background-repeat: inherit;
+    }
+    .main_text{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .subtext{
+        font-size: 15px;
+    }
+    a{
+        font-size: 15px;
+    }
+    .logoimage{
+        width: 70px; 
+        height: 70px; 
+    }
+
+    .hero{
+        width: auto;
+    }
+
+    .headercontent{
+        padding: 40px;
+    }
+    .infotitle{
+        font-size: 25px;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+    .infoimage{
+        max-width: auto; 
+        height: auto; 
+        border-radius: 15px;
+    }
+    .information{
+        gap: 25px;
+        padding-bottom: 18px;
+    }
+    .quotesection{
+        padding: 20px;
+    }
+    .quotetext{
+        font-size: 20px;
+        width: auto;
+    }
+    .calltoaction{
+        padding: 15px 8px;
+        margin: 20px 8px;
+        width: auto;
+    }
+    .actiontext{
+        font-size: 18px;
+    }
+    footer{
+        padding: 15px;
+    }
+    .navbar{
+        padding: 15px 20px;
+        flex-wrap: wrap;
+    }
 }
