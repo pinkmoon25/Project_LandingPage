@@ -6,7 +6,6 @@ body{
     padding: 0;
     background-color: #ffede1;
     background-image: url(./images/pexels-pixabay.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -45,14 +44,14 @@ a{
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
-    color: wheat;
+    color: floralwhite;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a:hover{
     cursor: pointer;
-    color: aqua;
+    color: cadetblue;
 }
 
 .headerimage{
@@ -134,6 +133,7 @@ button:hover{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    background: inherit;
 }
 
 .information{
@@ -167,9 +167,9 @@ button:hover{
 .quotetext{
     font-size: 36px;
     font-weight: bold;
-    color:#e5e7eb;
+    color: antiquewhite;
     width: 600px;
-    text-shadow: 2px 2px 4px gray;
+    text-shadow: 1px 1px 2px gray;
 }
 
 pre{
