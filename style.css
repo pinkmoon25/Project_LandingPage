@@ -206,10 +206,10 @@ pre{
 footer{
     font-weight: 600;
     font-style: italic;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
     background-color:#1F2937;
-    color: silver;
+    color: #ffede1;
     text-align: center;
     padding: 32px;
     margin: 0;
@@ -279,6 +279,7 @@ footer{
     }
     footer{
         padding: 15px;
+        font-size: 14px;
     }
     .navbar{
         padding: 15px 20px;
